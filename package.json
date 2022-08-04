@@ -1,0 +1,25 @@
+{
+  "name": "datastructures-using-js",
+  "version": "1.0.0",
+  "description": "Datastructures implemeneted in javascript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/001AJD/datastructures-using-js.git"
+  },
+  "keywords": [
+    "ds",
+    "dsalgo",
+    "datastructures"
+  ],
+  "author": "Ajinkya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/001AJD/datastructures-using-js/issues"
+  },
+  "homepage": "https://github.com/001AJD/datastructures-using-js#readme"
+}

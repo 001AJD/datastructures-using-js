@@ -24,7 +24,7 @@ const isEvenDigits = (num) => {
   }
 };
 
-const countDigits = (num, sum = 0) => {
+const countDigits2 = (num, sum = 0) => {
   if(num === 0)
   {
     return sum;
@@ -35,4 +35,9 @@ const countDigits = (num, sum = 0) => {
     return countDigits(parseInt(num/10), sum);
   }
 };
+
+const countDigits = (num) => {
+  return parseInt(Math.log10(num) + 1);
+};
+
 export{ findNumberWithEvenDigits }

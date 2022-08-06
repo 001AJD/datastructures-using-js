@@ -14,6 +14,10 @@ const findNumberWithEvenDigits = (arr) =>{
 };
 
 const isEvenDigits = (num) => {
+  if(typeof(num) !== 'number')
+  {
+    return false;
+  }
   if(countDigits(num) % 2 == 0)
   {
     return true;

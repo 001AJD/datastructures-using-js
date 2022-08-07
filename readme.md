@@ -1,11 +1,12 @@
 
 # datastructures-using-js
-## Install Dependencies
+## Datastructures implemented using javascript by TDD approach.
+### Install Dependencies
 > **npm ci**
 
-## Run tests
+### Run tests
 > **npm test** 
 
-## Dev Dependencies
+### Dev Dependencies
 + **mocha** : test framework
 + **chai** : assertion library

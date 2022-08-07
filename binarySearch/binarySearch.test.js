@@ -38,4 +38,13 @@ describe('Test Suite for Binary Search function', ()=>{
     expect(actualResult).to.be.equal(expectedResult);
     done();
   });
+
+  it('Should handle descending ordered array', (done)=>{
+    const input = [100,98,56,47,45,33,20,10];
+    const target = 33;
+    const expectedResult = 5;
+    const actualResult = binarySearch(input,target);
+    expect(actualResult).to.be.equal(expectedResult);
+    done();
+  });
 });

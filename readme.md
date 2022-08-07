@@ -1,5 +1,3 @@
-
-# datastructures-using-js
 #### Datastructures implemented using javascript by TDD approach.
 #### Install Dependencies
 > **npm ci**

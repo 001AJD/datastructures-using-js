@@ -1,3 +1,7 @@
+/*
+Problem: https://leetcode.com/problems/richest-customer-wealth/
+*/
+
 const getMaxWealth = (arr) => {
   let maxWealth = 0;
   if(!Array.isArray(arr))

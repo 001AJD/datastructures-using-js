@@ -1,4 +1,4 @@
-import { expect } from "chai";
+import { expect } from 'chai';
 import { linearSearch } from './linearSearch.js';
 
 describe('Test Suite for Linear Search', ()=>{
@@ -12,7 +12,7 @@ describe('Test Suite for Linear Search', ()=>{
   });
 
   it('Should return index of an target character to be searched', (done)=>{
-    const array = "Ajinkya";
+    const array = 'Ajinkya';
     const item = 'A';
     const expected = 0;
     const result = linearSearch(array,item);
@@ -21,7 +21,7 @@ describe('Test Suite for Linear Search', ()=>{
   });
 
   it('Should return -1 if the target character does not exists', (done)=>{
-    const array = "Ajinkya";
+    const array = 'Ajinkya';
     const item = 'z';
     const expected = -1;
     const result = linearSearch(array,item);
@@ -39,7 +39,7 @@ describe('Test Suite for Linear Search', ()=>{
   });
 
   it('Should return index of an target character to be searched in range', (done)=>{
-    const array = "Ajinkya";
+    const array = 'Ajinkya';
     const item = 'A';
     const expected = -1;
     const start = 1;
@@ -50,7 +50,7 @@ describe('Test Suite for Linear Search', ()=>{
   });
 
   it('Should return -1 if target element not found in range', (done)=>{
-    const array = "Ajinkya";
+    const array = 'Ajinkya';
     const item = 'A';
     const expected = -1;
     const start = 1;

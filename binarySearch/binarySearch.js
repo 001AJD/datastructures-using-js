@@ -7,7 +7,8 @@ const binarySearch = (arr, target) => {
   let end = arr.length - 1;
   while(start <= end)
   {
-    let mid = calculateMidIndex(start, end);
+    // let mid = parseInt((start + end) / 2); the summation can give a integert value which is out of int type range
+    let mid = parseInt(start + ((end - start) / 2));
     if(arr[mid] === target)
     {
       return mid;
@@ -22,10 +23,6 @@ const binarySearch = (arr, target) => {
     }
   }
   return -1;
-};
-
-const calculateMidIndex = (start, end) => {
-  return parseInt((start + end) / 2);
 };
 
 export { binarySearch }

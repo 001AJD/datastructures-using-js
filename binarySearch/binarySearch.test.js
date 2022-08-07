@@ -21,6 +21,15 @@ describe('Test Suite for Binary Search function', ()=>{
     done();
   });
 
+  it('Should handle negative numbers in array', (done)=>{
+    const input = [-10,-23,-44,299,300,500,987];
+    const target = -23;
+    const expectedResult = 1;
+    const actualResult = binarySearch(input,target);
+    expect(actualResult).to.be.equal(expectedResult);
+    done();
+  });
+
   it('Should return not an array', (done) => {
     const input = 10;
     const target = 300;

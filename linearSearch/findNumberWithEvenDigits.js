@@ -18,7 +18,26 @@ const isEvenDigits = (num) => {
   {
     return false;
   }
-  if(countDigits(num) % 2 == 0)
+  // if(countDigits(num) % 2 == 0)
+  /* 
+  binar places 
+  
+  3 & 1 odd number
+  Binary Places        8421
+  3 bin representation 0011
+  1 bin representation 0001
+  ANDing result        0001
+  
+  4 & 1 even number
+  Binary Places        8421
+  4 bin representation 0110
+  1 bin representation 0001
+  ANDing result        0000
+
+  for odd number 1 place will always be 1
+  for even number 1 place will always be 0
+  */
+  if(((countDigits(num)) & 1) ===  0) // bitwise operator is faster
   {
     return true;
   }

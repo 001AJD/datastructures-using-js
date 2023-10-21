@@ -1,4 +1,4 @@
-#### Datastructures implemented using javascript by TDD approach.
+### Datastructures implemented using javascript by TDD approach.
 #### Install Dependencies
 > **npm ci**
 
@@ -6,5 +6,5 @@
 > **npm test** 
 
 #### Dev Dependencies
-+ **mocha** : test framework
-+ **chai** : assertion library
++ **mocha** : Testing Framework
++ **chai** : Assertion Library

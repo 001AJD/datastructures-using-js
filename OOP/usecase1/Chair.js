@@ -11,10 +11,10 @@ class Chair
     }
     adjustableHeight () {};
     adjustableAngle() {};
-    moveChair() {}
+    moveChair() {};
 }
 
 const newChair = new Chair('Blue', '30 inch', '90 degrees', true, true, true);
 
 console.dir(Chair);
-console.log(Chair)
+console.log(Chair);

@@ -6,13 +6,13 @@
 - [x] Check if two strings are Anagram of each other
 #### Data structure in javascript
 - [ ] Set
-- [ ] Map
+- [x] Map
 #### Error Handling
 - [ ] Try catch block
 - [ ] Chaining method
 ### OOP 
-- [ ] Class
-- [ ] Object
+- [x] Class
+- [x] Object
 - [ ] Inheritance
-    - [ ] Protoypal Inheritance 
-    - [ ] Classical Inheritance (Sugar Syntax for prototypal inheritance)
+    - [x] Protoypal Inheritance 
+    - [x] Classical Inheritance (Sugar Syntax for prototypal inheritance)

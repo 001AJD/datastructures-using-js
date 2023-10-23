@@ -14,3 +14,5 @@
 - [ ] Class
 - [ ] Object
 - [ ] Inheritance
+    - [ ] Protoypal Inheritance 
+    - [ ] Classical Inheritance (Sugar Syntax for prototypal inheritance)

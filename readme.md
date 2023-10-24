@@ -21,6 +21,8 @@
 - [ ] Inheritance
     - [x] Protoypal Inheritance 
     - [x] Classical Inheritance (Sugar Syntax for prototypal inheritance)
+#### Asynchronous programming
+- [x] Does await keyword inside for loop block the main thread?
 #### String Problems
 - [x] Reverse a string
 - [x] Check palindrome

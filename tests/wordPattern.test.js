@@ -19,4 +19,13 @@ describe('Test Suite for the wordPattern function', ()=>{
     expect(result).to.be.equal(expectedOutput);
     done();
   });
+
+  it('Should return false for the given input', (done) => {
+    const pattern = 'abba';
+    const inputStr = 'dog dog dog dog'
+    const expectedOutput = false;
+    const result = wordPattern(inputStr, pattern);
+    expect(result).to.be.equal(expectedOutput);
+    done();
+  });
 });

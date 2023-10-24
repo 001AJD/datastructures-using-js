@@ -5,13 +5,13 @@
 - [x] Replace a character with a word in string
 - [x] Check if two strings are Anagram of each other
 - [x] Check if string follows a given pattern. A word pattern problem
-#### Data structure in javascript
+#### Data structures in javascript
 - [ ] Set
 - [x] Map
 #### Error Handling
 - [ ] Try catch block
 - [ ] Chaining method
-### OOP 
+#### OOP 
 - [x] Class
 - [x] Object
 - [ ] Inheritance

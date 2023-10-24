@@ -4,7 +4,7 @@
 - [x] Count occurrences of character in the string
 - [x] Replace a character with a word in string
 - [x] Check if two strings are Anagram of each other
-- [ ] Check if string follows a given pattern. A word pattern problem
+- [x] Check if string follows a given pattern. A word pattern problem
 #### Data structure in javascript
 - [ ] Set
 - [x] Map

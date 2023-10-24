@@ -1,4 +1,4 @@
-### Datastructures implemented using javascript by TDD approach.
+### Data structures implemented using JavaScript by TDD approach.
 #### Install Dependencies
 > **npm ci**
 

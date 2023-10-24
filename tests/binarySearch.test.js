@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { binarySearch } from './binarySearch.js';
+import { binarySearch } from '../binarySearch/binarySearch.js';
 
 describe('Test Suite for Binary Search function', ()=>{
   

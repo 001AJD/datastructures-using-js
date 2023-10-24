@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { search2DArray } from './search2DArray.js';
+import { search2DArray } from '../linearSearch/search2DArray.js';
 
 describe('Test suite for 2D array search', ()=>{
   it('Should return index of an target item if found in array',(done)=>{

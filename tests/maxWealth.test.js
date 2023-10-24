@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { getMaxWealth } from './maxWealth.js';
+import { getMaxWealth } from '../linearSearch/maxWealth.js';
 
 describe('Test suite for max wealth function', ()=>{
   it('Should return max wealth', (done)=>{

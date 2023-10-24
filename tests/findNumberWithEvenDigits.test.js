@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { findNumberWithEvenDigits } from './findNumberWithEvenDigits.js';
+import { findNumberWithEvenDigits } from '../linearSearch/findNumberWithEvenDigits.js';
 
 describe('Test Suite for findNumberWithEvennumber of digits',()=>{
   it('should return number of elements having even number of digits', (done)=>{

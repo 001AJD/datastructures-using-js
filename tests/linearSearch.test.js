@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { linearSearch } from './linearSearch.js';
+import { linearSearch } from '../linearSearch/linearSearch.js';
 
 describe('Test Suite for Linear Search', ()=>{
   it('Should return index of an target element to be searched', (done)=>{

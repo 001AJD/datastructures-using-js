@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { searchMatrices } from './matrixSearch.js';
+import { searchMatrices } from '../binarySearch/matrixSearch.js';
 
 describe('Test Suite for sorted matrix search', ()=>{
   it('Should return position of the target element from the matrices',(done)=>{

@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { getMinimumNumber } from './getMinimumNumber.js';
+import { getMinimumNumber } from '../linearSearch/getMinimumNumber.js';
 
 describe("Test Suite for getMinimumNumber from array function", ()=>{
   it("Should return minium number from an array", (done)=>{

@@ -1,17 +1,33 @@
 const ping = () => {
-    return new Promise((resolve)=>{
-        setTimeout(()=>{
-            resolve('Pong');
-        }, 2000);
+    return new Promise((resolve, reject)=>{
+        let n = Math.floor(Math.random() * 10);
+        console.log(n);
+        if( n >= 5)
+        {
+            setTimeout(()=>{
+                resolve('Pong');
+            }, 2000);
+        }
+        else
+        { 
+            reject('Ping failed');
+        }
     });
 };
 
 const main = async () => {
     console.log('main() started...');
-    let response = await ping();
-    console.log('Print the response :: main');
-    console.log(response);
-    console.log('main() execution end!!!');
+    try
+    {
+        let response = await ping();
+        console.log('Print the response :: main');
+        console.log(response);
+        console.log('main() execution end!!!');
+    }
+    catch(e)
+    {
+        console.error(e);
+    }
 };
 
 const main2 = () => {
@@ -21,6 +37,9 @@ const main2 = () => {
         return result;
     }).then((result2) => {
         console.log(result2+' concatenated result :: main2');
+    }).catch((e)=>{
+        // handle error
+        console.log(e);
     });
     console.log('main2() execution end!!!');
 }

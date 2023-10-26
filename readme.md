@@ -13,8 +13,8 @@
 - [ ] Queue
 - [ ] Linked Lists
 #### Error Handling
-- [ ] Try catch block
-- [ ] Chaining method
+- [x] Try catch block
+- [x] Chaining method
 #### OOP 
 - [x] Class
 - [x] Object

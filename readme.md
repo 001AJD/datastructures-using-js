@@ -31,3 +31,6 @@
 - [x] Check if two strings are Anagram of each other
 - [x] Check if string follows a given pattern. A word pattern problem
 - [ ] Check if input strings are isomorphic
+#### Array Problems
+- [x] Remove elements in place
+- [ ] In place array problems

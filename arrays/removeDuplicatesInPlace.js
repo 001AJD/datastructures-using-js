@@ -1,4 +1,7 @@
 /*
+Problem 
+- https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150
+
 Two Pointer Approach. Works on Sorted Array.
 - declare pointer u = 0 to keep track of unique element's index
 - declare pointer i = 1 to iterate the array

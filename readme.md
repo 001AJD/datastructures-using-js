@@ -32,5 +32,5 @@
 - [x] Check if string follows a given pattern. A word pattern problem
 - [ ] Check if input strings are isomorphic
 #### Array Problems
-- [ ] Remove elements in place (can be optimized)
-- [ ] Remove Duplicates from a Sorted Array
+- [ ] Remove elements in place.
+- [ ] Remove Duplicates from a Sorted Array.

@@ -1,6 +1,6 @@
 /*
 Problem 
-- 
+- https://leetcode.com/problems/remove-element/description/
 Approach - Two pointer approach. In Place Algorithm
 - Initialize point k = 0 to keep track of all new elements without, val <-- to be removed, parameter2
 - Initialize pointer i = 0 to iterate the array till

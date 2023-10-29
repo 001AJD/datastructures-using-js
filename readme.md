@@ -6,10 +6,10 @@
 > **npm test** 
 
 #### Data structures in javascript
-- [ ] Set
+- [x] Set
 - [x] Map
-- [ ] Array
-- [ ] Stack
+- [x] Array
+- [x] Stack
 - [ ] Queue
 - [ ] Linked Lists
 #### Error Handling

@@ -6,10 +6,10 @@
 > **npm test** 
 
 #### Data structures in javascript
-- [ ] Set
+- [x] Set
 - [x] Map
-- [ ] Array
-- [ ] Stack
+- [x] Array
+- [x] Stack
 - [ ] Queue
 - [ ] Linked Lists
 #### Error Handling
@@ -31,3 +31,7 @@
 - [x] Check if two strings are Anagram of each other
 - [x] Check if string follows a given pattern. A word pattern problem
 - [ ] Check if input strings are isomorphic
+#### Array Problems
+- [x] Remove elements in place.
+- [x] Remove Duplicates from a Sorted Array.
+- [ ] Remove Duplicates from a Sorted Array II.

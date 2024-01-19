@@ -1,9 +1,13 @@
 for (var i=1; i<=5; i++) 
 {
-	setTimeout( function () 
-	{
-		let j = i;
-		console.log( j );
-	}, 0 );
+	(function()
+    {
+        var j = i;
+        setTimeout( function () 
+        {
+            console.log( j );
+        },1000 );
+    })();
+    
 };
 	

@@ -1,9 +1,23 @@
-for (var i=1; i<=5; i++) 
+// Example 1
+function foo()
 {
-	setTimeout( function () 
+	let a = 10;
+	function bar()
 	{
-		let j = i;
-		console.log( j );
-	}, 0 );
-};
-	
+		console.log(a);
+	}
+	return bar;
+}
+
+let baz = foo();
+baz();
+
+// Example 2
+function wait(message)
+{
+	setTimeout(function timer(
+	){
+		console.log(message);
+	}, 1000);
+}
+wait('My Message');

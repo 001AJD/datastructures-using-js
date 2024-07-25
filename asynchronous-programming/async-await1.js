@@ -1,18 +1,22 @@
-const isEven = (n1) => {
+const isEven = (num) => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
-			if (n1 % 2 === 0) {
+			if (num % 2 === 0) {
 				resolve(true);
 			} else {
-				resolve(false);
+				reject(false);
 			}
 		}, 2000);
 	});
 };
 
-const main = async () => {
-	let result = await isEven(10);
-	console.log(result);
+const main = async (num) => {
+	try {
+		const result = await isEven(num);
+		console.log(result);
+	} catch (err) {
+		console.error(err);
+	}
 };
-
-main();
+main(9);
+main(10);

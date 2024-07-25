@@ -4,6 +4,5 @@ function makeAdder(x) {
 	};
 }
 
-let add5 = makeAdder(5);
-
-console.log(add5(10));
+const add10 = makeAdder(10);
+console.log(add10(15));

@@ -1,17 +1,15 @@
-const reverseString = (input) => {
-  let result = '';
-  if(typeof(input) !== 'string')
-  {
-    result = 'invalid input';
-    return result;
-  }
-  let i = (input.length - 1);
-  while(i >= 0)
-  {
-    result += input.charAt(i);
-    i -= 1;
-  }
-  return result;
+const reverse = (str) => {
+	let result = "";
+	let strLength = str.length - 1;
+	while (strLength >= 0) {
+		result += str.charAt(strLength);
+		strLength -= 1;
+	}
+	return result;
 };
 
-export { reverseString };
+export { reverse };
+
+console.log(reverse("ABC"));
+console.log(reverse("XYZZZ"));
+console.log(reverse("XYZZ123456"));

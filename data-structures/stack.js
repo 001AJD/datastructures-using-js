@@ -1,54 +1,44 @@
-class Stack
-{
-    constructor() 
-    {
-        this.items = [];
-    }
+class Stack {
+	constructor() {
+		this.items = [];
+	}
+	push(element) {
+		this.items.push(element);
+		return this.items[this.items.length - 1];
+	}
 
-    push(item)
-    {
-        this.items.push(item);
-    }
+	pop() {
+		if (this.items.length === 0) {
+			return "underflow condition";
+		} else {
+			return this.items.pop();
+		}
+	}
 
-    pop()
-    {
-        if(this.items.length === 0)
-        {
-            return 'underflow';
-        }
-        else
-        {
-            return this.items.pop();
-        }
-    }
+	peek() {
+		return this.items[this.items.length - 1];
+	}
 
-    peek() 
-    {
-        return this.items[this.items.length - 1];
-    }
+	isEmpty() {
+		if (this.items.length === 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 
-    isEmpty() 
-    {
-        if(this.items.length === 0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
+	size() {
+		return this.items.length;
+	}
 }
 
-let s1 = new Stack();
-console.log(`is stack empty? => ${s1.isEmpty()}`);
-console.log('Pushing 1 onto the stack');
-s1.push(1);
-console.log('Pushing 2 onto the stack');
-s1.push(2);
+const s1 = new Stack();
+s1.push(10);
+s1.push(20);
+s1.push(30);
+s1.push(40);
 
-console.log(`is stack empty? => ${s1.isEmpty()}`);
-console.log(`Top of the stack contains => ${s1.peek()}`);
-console.log('Pop operation is being performed');
-console.log(s1.pop());
-console.log(`Top of the stack contains => ${s1.peek()}`);
+console.log("isEmpty? = " + s1.isEmpty());
+console.log("size = " + s1.size());
+console.log("peek = " + s1.peek());
+console.log("pop = " + s1.pop());

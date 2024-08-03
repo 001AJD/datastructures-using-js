@@ -38,30 +38,9 @@ class Queue {
 			return this.items.slice(this.front);
 		}
 	}
-
-	isEmpty() {
-		return this.rear === 0 && this.front === 0 ? true : false;
-	}
 }
 
 const q1 = new Queue(5);
 console.log(q1.enqueue(100));
-console.log(q1.enqueue(200));
-console.log(q1.enqueue(300));
-console.log(q1.enqueue(400));
-console.log(q1.enqueue(500));
-console.log(q1.enqueue(600));
 console.log("dequeued 100 => " + q1.dequeue());
-console.log("dequeued 200 => " + q1.dequeue());
-console.log("dequeued 300 => " + q1.dequeue());
-console.log("dequeued 400 => " + q1.dequeue());
-console.log("dequeued 500 => " + q1.dequeue());
-console.log(q1.isEmpty());
-console.log("dequeue operation on empty queue " + q1.dequeue());
-console.log(q1.enqueue(600));
-console.log(q1.enqueue(700));
-console.log(q1.enqueue(800));
-console.log(q1.enqueue(900));
-console.log(q1.enqueue(1000));
-console.log(q1.enqueue(1100));
 console.log(q1.isEmpty());
